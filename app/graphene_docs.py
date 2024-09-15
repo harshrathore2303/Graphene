@@ -30,8 +30,8 @@ def get_human(name):
         }
     ]
     for human in humans:
-        h = dict(**human)
-        print(h)
+        # h = dict(**human)
+        # print(h)
         if human["name"] == name:
             return Human(**human)
     return None
